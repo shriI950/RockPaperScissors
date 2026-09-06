@@ -10,6 +10,21 @@ options = ['✊', '✋', '✌️']
 player = int(input("Select number between 1 to 3: "))
 computer = random.randint(1,3)
 
-print(f'You chose: {options[player-1]}')
-print(f'CPU chose: {options[computer-1]}')
-
+if player==computer:
+  print("It's a tie!")
+else:
+  if player==1:
+    if computer==2:
+      print("The computer won!")
+    else:
+      print("The player won!")
+  elif player==2:
+    if computer==1:
+      print("The player won!")
+    else:
+      print("The Computer won!")
+  else:
+    if computer==1:
+      print("The computer won!")
+    else:
+      print("The player won!")
