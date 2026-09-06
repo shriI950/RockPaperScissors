@@ -2,6 +2,20 @@ import random
 
 print("Welcome to game of Rock, Paper, Scissors, Lizard, Spock!!!")
 
+"""
+                  | Rules of the game are as follows |
+- Scissors cut Paper
+- Paper covers Rock
+- Rock crushes Lizard
+- Lizard poisons Spock
+- Spock smashes Scissors
+- Scissors beat Lizard
+- Lizard eats Paper
+- Paper disproves Spock
+- Spock vaporizes Rock
+- Rock breaks Scissors
+"""
+
 print("1 is for '✊' (Rock).")
 print("2 is for '✋' (Paper).")
 print("3 is for '✌️' (Scissors).")
